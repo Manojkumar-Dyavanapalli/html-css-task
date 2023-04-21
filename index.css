@@ -1,0 +1,269 @@
+.main-container {
+  min-height: 100vh;
+  padding: 50px;
+  background-color: #f218d3;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 20%;
+}
+
+.profile-icon {
+  font-size: 60px;
+  color: #410d5f;
+  border-radius: 50%;
+  border: solid 5px #410d5f;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-icon {
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 20px;
+    border: solid 3px #410d5f;
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+}
+
+.profile-name {
+  padding-left: 40px;
+  margin-top: 5px;
+  color: #410d5f;
+}
+
+.profile-2-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 3px solid #410d5f;
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-2-div {
+    border-bottom: none;
+  }
+}
+
+.profile-21-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 80%;
+}
+
+.profile-director-div {
+  width: 50%;
+}
+
+.profile-address-div {
+  border-left: 3px solid #410d5f;
+  padding-left: 20px;
+  height: 100%;
+  width: 50%;
+}
+
+.work-all-years {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.work-2-div {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.work-year {
+  padding-left: 0;
+  margin-right: 20px;
+}
+
+.work-paragraph1 {
+  margin-bottom: 0;
+  font-weight: bold;
+  padding-left: 0;
+}
+
+.work-description {
+  margin-left: 40px;
+}
+
+.skills-2-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 3px solid #410d5f;
+  border-bottom: 3px solid #410d5f;
+}
+
+.skills-director-div {
+  width: 50%;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.div-dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dots {
+  font-size: 50px;
+}
+
+.skills-address-div {
+  width: 50%;
+  border-left: 3px solid #410d5f;
+  height: 200px;
+}
+
+.skils-year-para {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-paragraph {
+  display: flex;
+  flex-direction: column;
+}
+
+.skils-para1 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.interests-icons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 3px #410d5f;
+}
+
+.icon-style {
+  font-size: 50px;
+  color: #ffffff;
+  border-radius: 50%;
+  border: solid 5px #410d5f;
+  padding: 50px;
+  background-color: #410d5f;
+}
+
+@media screen and (max-width: 768px) {
+  .icon-style {
+    font-size: 20px;
+    padding: 20px;
+    margin: 5px;
+  }
+
+  .div-dots {
+    flex-direction: column;
+  }
+
+  .skills-2-div {
+    border: none;
+  }
+
+  .dots-para {
+    margin-bottom: 0;
+  }
+
+  .medium-dots {
+    margin-bottom: 5px;
+  }
+
+  .skills-2-div {
+    height: 368px;
+  }
+}
+
+.work-paragraph3 {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .name-heading {
+    font-size: 12px;
+  }
+
+  .interests-icons-div {
+    border: none;
+  }
+
+  .skills-address-div {
+    text-align: center;
+    padding-left: 20px;
+    height: auto;
+    border: none;
+  }
+
+  .skils-year-para {
+    flex-direction: column;
+  }
+
+  .profile-row-div {
+    margin-bottom: 30px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .profile-name {
+    width: 100%;
+    text-align: left;
+    margin-left: 42px;
+  }
+
+  .profile-text {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .profile-icon {
+    margin-left: 80px;
+  }
+
+  .profile-address-div {
+    border: none;
+  }
+
+  .work-all-years {
+    width: 100%;
+  }
+
+  .work-2-div {
+    margin-left: 40px;
+    gap: 20px;
+  }
+}
